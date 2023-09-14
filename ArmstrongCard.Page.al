@@ -6,6 +6,10 @@
 // Sum of 1, 125, and 27 = 153
 // Therefore, 153 is an Armstrong number.
 
+
+/*These comments explain the purpose and functionality of different sections, elements, and variables within the code.
+The code calculates Armstrong numbers within the range from 0 to 10000 and displays them using the Message function.*/
+
 page 50113 "Armstrong Card"
 {
     PageType = Card;                // Define the page type as a "Card."
