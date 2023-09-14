@@ -1,74 +1,78 @@
 page 50112 "Statements Card"
 {
-    PageType = Card;
-    ApplicationArea = All;
-    UsageCategory = Documents;
-    Caption = 'Statements Card';
+    PageType = Card;            // This defines the type of page as a "Card."
+    ApplicationArea = All;      // The page is applicable to all application areas.
+    UsageCategory = Documents;  // It's categorized under "Documents."
+    Caption = ' Toheeb Badru Statements Card';  // The caption or title of the page.
 
     layout
     {
-        area(Content)
+        area(Content)            // The main content area of the page.
         {
-            group(Input)
+            group(Input)         // A grouping for input-related elements.
             {
-                Caption = 'Input';
-                field(Difficulty; Difficulty)
+                Caption = 'Input';  // The caption for this input group.
+
+                field(Difficulty; Difficulty)  // A field for selecting the difficulty level.
                 {
-                    ApplicationArea = All;
-                    Caption = 'Difficulty';
-                    ToolTip = 'Select the Difficulty.';
-                    trigger OnValidate()
+                    ApplicationArea = All;   // Applicable to all application areas.
+                    Caption = 'Difficulty';  // Caption for the field.
+                    ToolTip = 'Select the Difficulty.';  // Tooltip for the field.
+                    trigger OnValidate()   // Triggered when the field is validated.
                     begin
-                        GetSuggestion();
+                        GetSuggestionnn();  // Call the local procedure GetSuggestionnn().
                     end;
                 }
             }
-            group(Output)
+
+            group(Output)        // A grouping for output-related elements.
             {
-                Caption = 'Output';
-                field(Suggestion; Suggestion)
+                Caption = 'Output';  // The caption for this output group.
+
+                field(Suggestion; Suggestion)  // A field to display suggestions.
                 {
-                    ApplicationArea = All;
-                    Caption = 'Suggestion';
-                    ToolTip = 'Suggestion.';
-                    Editable = false;
+                    ApplicationArea = All;   // Applicable to all application areas.
+                    Caption = 'Suggestion';  // Caption for the field.
+                    ToolTip = 'Suggestion.';  // Tooltip for the field.
+                    Editable = false;         // The field is not editable.
                 }
-                field(Level; Level)
+
+                field(Level; Level)   // A field to display the difficulty level.
                 {
-                    ApplicationArea = All;
-                    Caption = 'Level';
-                    ToolTip = 'Level.';
-                    Editable = false;
+                    ApplicationArea = All;   // Applicable to all application areas.
+                    Caption = 'Level';       // Caption for the field.
+                    ToolTip = 'Level.';       // Tooltip for the field.
+                    Editable = false;         // The field is not editable.
                 }
             }
         }
     }
 
     var
-        Level: Text[30];
-        Suggestion: Text[80];
-        Difficulty: Integer;
+        Level: Text[30];      // Variable declaration for the Level (text, max 30 characters).
+        Suggestion: Text[80]; // Variable declaration for the Suggestion (text, max 80 characters).
+        Difficulty: Integer;  // Variable declaration for the Difficulty (integer).
 
-    local procedure GetSuggestion()
+    local procedure GetSuggestionnn()  // Local procedure to calculate suggestion and level.
     begin
-        Level := '';
-        Suggestion := '';
+        Level := '';         // Initialize Level as an empty string.
+        Suggestion := '';    // Initialize Suggestion as an empty string.
 
-        case Difficulty of
-            1 .. 5:
+        case Difficulty of   // Evaluate the value of Difficulty.
+            1 .. 5:          // If Difficulty is in the range 1 to 5.
                 begin
-                    Level := 'Beginner';
-                    Suggestion := 'Take e-Learning or remote training';
+                    Level := 'Beginner';               // Set Level to 'Beginner.'
+                    Suggestion := 'Take e-Learning or remote training';  // Set Suggestion.
                 end;
-            6 .. 8:
+            6 .. 8:          // If Difficulty is in the range 6 to 8.
                 begin
-                    Level := 'Intermediate';
-                    Suggestion := 'Attend instructor-Led';
+                    Level := 'Intermediate';           // Set Level to 'Intermediate.'
+                    Suggestion := 'Attend instructor-Led';  // Set Suggestion.
                 end;
-            9 .. 10:
+            9 .. 10:         // If Difficulty is in the range 9 to 10.
                 begin
-                    Level := 'Advanced';
-                    Suggestion := 'Attend instructor-Led and self study';
+                    Level := 'Advanced';               // Set Level to 'Advanced.'
+                    Suggestion := 'Attend instructor-Led and self study';  // Set Suggestion.
                 end;
         end;
     end;
