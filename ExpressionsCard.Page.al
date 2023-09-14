@@ -3,7 +3,7 @@ page 50111 "Expressions Card"
     PageType = Card;            // Define the page type as a "Card."
     ApplicationArea = All;      // Make it applicable to all application areas.
     UsageCategory = Documents;  // Categorize it under "Documents."
-    Caption = 'Expressions Card';  // Set the page caption or title.
+    Caption = 'Toheeb Badru Expressions Card';  // Set the page caption or title.
 
     layout
     {

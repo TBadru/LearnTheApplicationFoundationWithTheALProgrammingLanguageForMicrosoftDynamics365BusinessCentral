@@ -15,7 +15,7 @@ page 50113 "Armstrong Card"
     PageType = Card;                // Define the page type as a "Card."
     ApplicationArea = All;          // Make it applicable to all application areas.
     UsageCategory = Documents;      // Categorize it under "Documents."
-    Caption = 'Armstrong Card';     // Set the page caption or title.
+    Caption = 'Toheeb Badru Armstrong Card';     // Set the page caption or title.
 
     layout
     {
