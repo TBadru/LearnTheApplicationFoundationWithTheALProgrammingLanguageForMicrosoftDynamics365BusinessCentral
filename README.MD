@@ -10,6 +10,49 @@ https://learn.microsoft.com/en-us/training/paths/foundation-customize-business-c
 
 https://learn.microsoft.com/en-us/training/paths/application-foundation-al-language/
 
+
+## AL
+
+AL is a programming language specifically designed for developing extensions and customizations for Business Central, which is a comprehensive business management solution. It's used to create apps and extensions to tailor Business Central to specific business needs.
+
+AL is similar to other programming languages and is used for defining tables, pages, codeunits, and other application objects within Business Central. Developers use AL to write code that interacts with the Business Central database, user interface, and business logic.
+
+If you have specific questions or need assistance with AL in the context of Business Central, please feel free to ask, and I'll do my best to help.In Microsoft Dynamics 365 Business Central, application objects are the building blocks of the system. These objects define the structure and behavior of the application. Here's a brief explanation of some of the core application objects:
+
+Tables:
+Tables are used to define the structure of data in Business Central. They represent entities or database tables where data is stored.
+Each table has fields (columns) that define the data it can store.
+Developers use tables to define the data model of the application, specifying which data should be stored and how it's related.
+Codeunits:
+Codeunits are containers for code that can be called from other parts of the application.
+They contain procedures and functions written in AL code.
+Codeunits are used to encapsulate business logic, calculations, and other reusable code.
+Pages:
+Pages define the user interface of Business Central.
+They specify how data is presented to users and how users can interact with it.
+Pages can display data from tables and allow users to perform actions like adding, modifying, or deleting records.
+Reports:
+Reports are used to generate printed or electronic documents, such as invoices, purchase orders, or financial statements.
+They can be designed to format and present data in a specific way for printing or exporting.
+Queries:
+Queries are used to define a subset of data from one or more tables.
+They allow users to filter and retrieve specific data sets easily.
+Queries are often used in conjunction with lists and reports.
+XMLPorts:
+XMLPorts are used to import and export data in XML format.
+They define how data is structured when exchanged with external systems or for data migration.
+Enums (Enumerations):
+Enums are used to define a set of named values (constants) that represent a discrete set of options or choices.
+They help ensure consistency and make it easier to work with predefined values.
+Page Extensions and Table Extensions:
+Extensions allow you to modify existing pages and tables without modifying their base code.
+Page extensions let you add fields, actions, and other elements to existing pages.
+Table extensions let you add fields to existing tables.
+CodeUnit Extensions:
+Similar to page and table extensions, codeunit extensions allow you to extend the behavior of existing codeunits without modifying their base code.
+Developers use these application objects to customize and extend the functionality of Business Central according to the specific needs of a business. AL is the programming language used to define and implement these objects, and it provides a structured way to work with the system's data and user interface. 
+
+
 ## Object ranges
 
 
