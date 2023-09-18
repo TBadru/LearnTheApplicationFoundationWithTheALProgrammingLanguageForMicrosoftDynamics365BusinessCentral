@@ -1,6 +1,6 @@
 ## Create an interface.
 
-Create a new .al file with following code that defines an interface IAddressProvider, which has one method getAddress with a certain signature
+Create a new .al file that defines an interface IAddressProvider, which has one method getAddress with a certain signature
 
 ## Create two codeunits that implement the interface.
 
