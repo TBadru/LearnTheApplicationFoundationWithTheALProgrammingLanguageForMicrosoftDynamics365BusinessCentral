@@ -9,12 +9,12 @@ codeunit 50111 Validations
     [EventSubscriber(ObjectType::Table, Database::Customer, 'OnAfterValidateEvent', 'Address', false, false)]
     local procedure TableCustomerOnAfterValidateAddress(var Rec: Record Customer)
     begin
-        CheckForPlusSign(Rec.Address);
+        CheckForTextToheeb(Rec.Address);
     end;
 
-    local procedure CheckForPlusSign(TextToVerify: Text)
+    local procedure CheckForTextToheeb(TextToVerify: Text)
     begin
-        if TextToVerify.Contains('+') then
-            Message('A + sign has been found.');
+        if TextToVerify.Contains('Toheeb') then
+            Message('A Text with name "Toheeb" has been found.');
     end;
 }
