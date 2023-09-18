@@ -21,7 +21,7 @@ page 50113 "Armstrong Card"
     {
         area(Content)
         {
-
+                  //
         }
     }
 
