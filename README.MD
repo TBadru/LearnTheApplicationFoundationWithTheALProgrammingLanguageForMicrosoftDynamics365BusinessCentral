@@ -257,3 +257,9 @@ local procedure <method_name>(parameter list) <return_value_name> : <data_type>[
 
 
 
+## Heavily revise all learning pathways!
+
+
+## Page and Action Triggers
+
+https://learn.microsoft.com/en-us/dynamics-nav/page-and-action-triggers
