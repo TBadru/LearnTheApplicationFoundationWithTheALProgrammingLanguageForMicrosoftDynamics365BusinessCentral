@@ -1,14 +1,26 @@
 ## Visit link below for detailed information regarding the learning pathway for "Get started with development in Microsoft Dynamics 365 Business Central"
-
 https://learn.microsoft.com/en-us/training/paths/development-get-started-business-central/
 ## Visit link below for detailed information regarding this learning pathway "Discover the foundation of customizing Microsoft Dynamics 365 Business Central"
-
 https://learn.microsoft.com/en-us/training/paths/foundation-customize-business-central/
 
-
 ## Visit link below for detailed information regarding the learning pathway for  "Learn the application foundation with the AL programming language for Microsoft Dynamics 365 Business Central"
-
 https://learn.microsoft.com/en-us/training/paths/application-foundation-al-language/
+
+## Visit link below for detailed information regarding the learning pathway for  "Learn about the data management foundation in Microsoft Dynamics 365 Business Central"
+https://learn.microsoft.com/en-us/training/paths/data-management-foundation-business-central/
+
+## Visit link below for detailed information regarding the learning pathway for  "Use application development best practices in Microsoft Dynamics 365 Business Central"
+https://learn.microsoft.com/en-us/training/paths/use-application-development-business-central/
+
+## Visit link below for detailed information regarding the learning pathway for  "Develop using Power Apps and Power Automate for Dynamics 365 Business Central"
+https://learn.microsoft.com/en-us/training/paths/power-apps-power-automate-business-central/
+
+## Visit link below for detailed information regarding the learning pathway for  "Tailor roles and design the UI for Microsoft Dynamics 365 Business Central"
+https://learn.microsoft.com/en-us/training/paths/tailor-roles-design-ui/
+
+## Visit link below for detailed information regarding the learning pathway for  "Interface with Microsoft Dynamics 365 Business Central"
+https://learn.microsoft.com/en-us/training/paths/interface-with-business-central/
+
 
 
 ## AL
