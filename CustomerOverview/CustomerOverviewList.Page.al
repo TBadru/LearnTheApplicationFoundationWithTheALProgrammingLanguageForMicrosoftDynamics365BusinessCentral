@@ -6,6 +6,7 @@ page 50120 "Customer Overview List"
     SourceTable = "Customer Overview";
     Caption = 'Customer Overview List';
     Editable = false;
+
     layout
     {
         area(Content)
@@ -46,6 +47,24 @@ page 50120 "Customer Overview List"
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action("Import Records ")
+            {
+                Caption = 'Import Records';
+                ToolTip = 'Import Records';
+                ApplicationArea = All;
+                Image = Import;
 
-
+                trigger OnAction()
+                var
+                    CustomerOverviewMgmt: Codeunit "Customer Overview Mgmt.";
+                begin
+                    CustomerOverviewMgmt.Run();
+                end;
+            }
+        }
+    }
 }
