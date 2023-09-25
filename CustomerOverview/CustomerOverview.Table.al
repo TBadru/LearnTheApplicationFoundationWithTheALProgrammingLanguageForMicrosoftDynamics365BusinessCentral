@@ -1,71 +1,71 @@
-table 50120 "Customer Overview"
-{
-    DataClassification = CustomerContent;
-    Caption = 'Customer Overview';
-    fields
-    {
-        field(1; "Entry No."; Integer)
-        {
-            DataClassification = CustomerContent;
-            Caption = 'Entry No.';
-        }
-        field(2; "Customer No."; code[20])
-        {
-            DataClassification = CustomerContent;
-            Caption = 'Customer No.';
-        }
-        field(3; "Customer Name"; Text[100])
-        {
-            DataClassification = CustomerContent;
-            Caption = 'Customer Name';
-        }
-        field(4; "Source Code"; Code[20])
-        {
-            DataClassification = CustomerContent;
-            Caption = 'Source Code';
-        }
-        field(5; "Amount"; Decimal)
-        {
-            DataClassification = CustomerContent;
-            Caption = 'Amount';
-        }
-        field(6; "LastRunDate"; DateTime)
-        {
-            DataClassification = CustomerContent;
-            Caption = 'LastRunDate';
-        }
-    }
+// table 50120 "Customer Overview"
+// {
+//     DataClassification = CustomerContent;
+//     Caption = 'Customer Overview';
+//     fields
+//     {
+//         field(1; "Entry No."; Integer)
+//         {
+//             DataClassification = CustomerContent;
+//             Caption = 'Entry No.';
+//         }
+//         field(2; "Customer No."; code[20])
+//         {
+//             DataClassification = CustomerContent;
+//             Caption = 'Customer No.';
+//         }
+//         field(3; "Customer Name"; Text[100])
+//         {
+//             DataClassification = CustomerContent;
+//             Caption = 'Customer Name';
+//         }
+//         field(4; "Source Code"; Code[20])
+//         {
+//             DataClassification = CustomerContent;
+//             Caption = 'Source Code';
+//         }
+//         field(5; "Amount"; Decimal)
+//         {
+//             DataClassification = CustomerContent;
+//             Caption = 'Amount';
+//         }
+//         field(6; "LastRunDate"; DateTime)
+//         {
+//             DataClassification = CustomerContent;
+//             Caption = 'LastRunDate';
+//         }
+//     }
 
 
-    keys
-    {
-        key(PK; "Entry No.")
-        {
-            Clustered = true;
-        }
-    }
+//     keys
+//     {
+//         key(PK; "Entry No.")
+//         {
+//             Clustered = true;
+//         }
+//     }
 
-    var
-        myInt: Integer;
+//     var
+//         myInt: Integer;
 
-    trigger OnInsert()
-    begin
+//     trigger OnInsert()
+//     begin
 
-    end;
+//     end;
 
-    trigger OnModify()
-    begin
+//     trigger OnModify()
+//     begin
 
-    end;
+//     end;
 
-    trigger OnDelete()
-    begin
+//     trigger OnDelete()
+//     begin
 
-    end;
+//     end;
 
-    trigger OnRename()
-    begin
+//     trigger OnRename()
+//     begin
 
-    end;
+//     end;
 
-}
+// }
