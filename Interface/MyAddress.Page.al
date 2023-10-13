@@ -23,6 +23,9 @@ page 50149 "My Address"
                 ApplicationArea = All;
                 Caption = 'What is the Address?';
                 ToolTip = 'Select the address.';
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
                 Image = Addresses;
 
                 trigger OnAction()
@@ -40,6 +43,9 @@ page 50149 "My Address"
                 Image = Home;
                 Caption = 'Send to Home.';
                 ToolTip = 'Set the interface implementation to Home.';
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
                 trigger OnAction()
                 begin
                     sendTo := sendTo::Private
@@ -52,6 +58,9 @@ page 50149 "My Address"
                 Caption = 'Send to Work.';
                 ToolTip = 'Set the interface implementation to Work.';
                 ApplicationArea = All;
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
 
                 trigger OnAction()
                 begin
